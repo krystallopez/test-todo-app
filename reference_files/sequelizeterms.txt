@@ -1,0 +1,9 @@
+1. Sequelize: Sequelize is an Object-Relational Mapping (ORM) library for Node.js that provides an easy-to-use interface for communicating with relational databases such as MySQL, PostgreSQL, SQLite, and MSSQL. Sequelize enables you to interact with databases using JavaScript instead of writing SQL queries directly.
+
+2. Querying and Transactions: Sequelize provides a simple and flexible interface for querying databases, including support for transactions and advanced query functionality.
+
+3. Hooks and Validations: Sequelize allows you to define hooks and validations that can be triggered before or after certain actions on your data models, such as saving or updating a record.
+
+4.Associations: Sequelize provides powerful support for creating associations between models, including one-to-one, one-to-many, and many-to-many relationships.
+
+5. Promise: In Sequelize, a promise is an object that represents the eventual completion or failure of an asynchronous operation. Promises are commonly used in Node.js to handle asynchronous operations, such as reading from a database or making an HTTP request. In Sequelize, many methods return a promise, which you can use to handle the result of the operation. For example, you can use the then method of the promise to specify a callback function to be called when the promise is resolved, or the catch method to handle any errors that might have occurred.

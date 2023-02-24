@@ -1,0 +1,10 @@
+1. To instantiate a database in Sequelize, you need to create a connection to the database using the Sequelize constructor. Here's an example of how you might do this for a MySQL database:
+
+const Sequelize = require('sequelize');
+
+const sequelize = new Sequelize('database', 'username', 'password', {
+  host: 'localhost',
+  dialect: 'mysql'
+});
+
+2. This will create a new Sequelize object that is connected to the database specified by the arguments. The dialect option specifies the type of database you are connecting to (in this case, MySQL).

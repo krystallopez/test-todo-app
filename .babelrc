@@ -1,0 +1,5 @@
+{
+  "presets": ["es2015"]
+}
+
+//This tells babel to use es2015 as its preset, not that ES2015 us another name for ES6 

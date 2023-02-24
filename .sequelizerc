@@ -1,0 +1,9 @@
+const path = require("path");
+
+module.exports = {
+  config: path.resolve("./config", "config.json"),
+  "models-path": path.resolve("./models"),
+  "migrations-path": path.resolve("./migrations"),
+};
+
+// The sequelizerc file is going to bootstrap our application with the above paths, the config.json file is going to contain the configuration for our application, the models path will contain our application models, migrations will contain the different migrations for our application. the migration files are used to create our app’s table using the models that we create. the models contain the design for our application tables.

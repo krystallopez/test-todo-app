@@ -1,0 +1,4 @@
+1. Middleware: Middleware functions are functions that have access to the request object(req), the response object(res), and the next middleware function in the application's request-response cycle. The next middleware function is commonly denoted by a variable named next.
+
+2. 'Express Router': In Express, router.get() is a method that is used to create a route handler for HTTP GET requests that match a particular path. The get() method is a part of the Express Router object which allows you to create modular, mountable route handlers.
+
